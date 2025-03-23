@@ -4,38 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aline Correa - Nutritionist</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <div class="background"></div>
-    <header>
-        <h1>Aline Correa</h1>
-        <p>Nutricionista</p>
-    </header>
-    <nav>
+    <header class="header">
         <ul>
+            <li><a href="#home">Home</a></li>
             <li><a href="#sobremim">Sobre</a></li>
-            <li><a href="#seriviços">Serviços</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#perguntas">Perguntas</a></li>
             <li><a href="#contato">Contato</a></li>
+            <li >
+                <div class="whatsappp">
+                  <a href="https://wa.me/12997652552" target="_blank">
+                    <img height=20px src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg"> 
+                  </a> 
+                </div>
+                </li>
         </ul>
+
+    </header>
+    <nav class="navbar">
+        <div class="textaline">
+            <h1>Aline Correa Nutricionista</h1>
+            <h2>Cuidando da sua auto estima</h2>
+        </div>
+        <div class="imagealine">
+            <img  src="images/alinefundo.png" alt="">
+        </div>
     </nav>
-    <section id="about">
+    <section id="sobremim">
+      <div class="sobre">
         <h2>Sobre mim</h2>
-        <p>Welcome! I am Aline Correa, a professional nutritionist dedicated to helping you achieve your health goals through personalized nutrition plans and guidance.</p>
+        <p>
+            Minha jornada começou na Gastronomia, onde descobri minha paixão por alimentos e pela arte de cozinhar. Desde então, me dediquei ao aprendizado, acumulando três pós-graduações — e atualmente estou mergulhando na quarta. Como Nutricionista há 12 anos, tenho ajudado inúmeras pessoas a alcançarem vidas mais saudáveis, enquanto enfrento meus próprios desafios pessoais, incluindo uma doença autoimune em remissão e SGNC, que me tornaram mais resiliente e empático.
+Ao longo da minha carreira, atuar por sete anos na gestão de cozinhas industriais em grandes multinacionais, hotéis e hospitais trouxe um olhar estratégico e profundo para o mundo da alimentação. Fora do trabalho, abraço um estilo de vida saudável, com exercícios e treinos diários que me renovam e me fortalecem.
+Sou apaixonado por animais e pela tranquilidade que eles trazem, além de amar o contraste entre praias e o inverno — embora o frio tenha um lugar especial no meu coração.
+        </p>
+      </div>        
     </section>
-    <section id="services">
-        <h2>Services</h2>
+    <section id="servicos">
+        <h2>Serviços</h2>
         <ul>
-            <li>Personalized Nutrition Plans</li>
-            <li>Weight Management</li>
-            <li>Sports Nutrition</li>
-            <li>Dietary Counseling</li>
+            <li>Planos Nutricionais Personalizados</li>
+            <li>Controle de Peso</li>
+            <li>Nutrição esportiva</li>
+            <li>Conselheira de Dieta</li>
         </ul>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: aline.correa@example.com</p>
-        <a href="https://wa.me/12997652552">Click here to chat with us on WhatsApp
+    <section id="contato" class="contact">
+        <h2>Contato para consultas</h2>
+        <div class = "whatsapp">
+          <a href="https://wa.me/12997652552" target="_blank">
+            <img src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg"> 
+          </a> 
+          <a href="https://wa.me/12997652552" class="texto-link" target="_blank"> WhatsApp: +55 12 99765-2552 </a>
+        </div>
     </section>
     <footer>
         <p>&copy; 2023 Aline Correa. All rights reserved.</p>

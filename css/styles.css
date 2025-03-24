@@ -25,7 +25,7 @@ body {
 
 }
 .header {
-    background-color: hsla(83, 80%, 80%, 0.664);;
+    background-color: 	#af5353;
     color: #FFF;
     text-align: left;
     padding-left: 10px;
@@ -61,7 +61,7 @@ header li{
     display: block
 }
 .navbar{
-    background-color: hsla(80, 100%, 60%);
+    background-color: #d07c7c;
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: "Brush Script MT", "Comic Sans MS", !important;
@@ -111,7 +111,7 @@ li .whatsappp{
     color: rgb(101, 161, 10)
 }
 .sobre {
-    background-color: hsla(83, 100%, 70%);
+    background-color: #df9191;
     margin-top: -40px;
     height: 300px;
     padding-left: 20px;
@@ -126,14 +126,14 @@ li .whatsappp{
     font-size: 40px;
 }
 .servicos {
-    background-color: hsla(83, 100%, 80%);
+    background-color: #f4a8a8;
     margin-top: -40px;
     height: 200px;
     padding-left: 20px;
     padding-bottom: 20px;
 }
 .contact {
-    background-color: hsla(83, 100%, 90%);
+    background-color: #feb5b5;
     margin-top: 0px;
     width: 100%;
     height: 200px;
@@ -146,7 +146,7 @@ li .whatsappp{
     padding-left: 20px;
 }
 .footer {
-    background-color: hsla(73, 100%, 90%);
+    background-color: #af5353;
     margin-top: -25px;
     width: 100%;
     height: 50px;

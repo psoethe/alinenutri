@@ -3,21 +3,33 @@ body {
     margin: 0 auto;
     font-family: Helvetica;
 }
+@media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Reduz o tamanho da fonte */
+      padding: 10px;
+    }
+  
+    .container {
+      max-width: 100%; /* Ocupa toda a largura da tela */
+      padding: 0 15px;
+    }
+  }
+  
 
 .contact {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0;
 }
 .inline {
     display: inline-block;
 
 }
 .header {
-    background-color: rgba(240, 219, 99, 0.8);
+    background-color: hsla(83, 80%, 80%, 0.664);;
     color: #FFF;
     text-align: left;
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 100%;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
     position: fixed;
@@ -43,31 +55,37 @@ header li{
 .imagealine{
     position: absolute;
     right: 0;
-    top: 70px;
+    top: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block
 }
 .navbar{
-    background-color: rgba(240, 219, 99, 0.8);
+    background-color: hsla(83, 100%, 60%);
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: "Brush Script MT", "Comic Sans MS", !important;
     font-weight: bold;
     position: inherit;
     margin-top: 50px;
-    height: 500px;
+    height: 473px;
     width: 100%;
+    padding: 0px;
     display: flex;
+    z-index: inherit;
 }
 .navbar .textaline{
-    font-size: 40px;
+    font-size: 200%;
     margin-top: 30px;
     padding-top: 40px;
     padding-left: 10px;
     padding-top: 10px;
 }
 .navbar h2{
-    font-size: 30px;
+    font-size: 120%;
     padding-left: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 li .whatsappp{
     display: flex;
@@ -86,18 +104,44 @@ li .whatsappp{
 
     display: flex;
     align-items: center;
-}
-.whatsapp img {
-
-    margin-right: 10px;
+    padding-left: 20px;
 }
 .texto-link {
     text-decoration: none;
     color: rgb(101, 161, 10)
 }
 .sobre {
-    background-color: #dfc87e;
-    margin-top: -20px;
+    background-color: hsla(83, 100%, 70%);
+    margin-top: -40px;
     height: 300px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.sobre h2, .servicos h2, p{
+    padding-top: 40px;
+    text-height: 20px; 
+    font-size: large;
+}
+.sobre h2, .servicos h2 {
+    font-size: 40px;
+}
+.servicos {
+    background-color: hsla(83, 100%, 80%);
+    margin-top: -40px;
+    height: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.contact {
+    background-color: hsla(83, 100%, 90%);
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+    padding-left: -10px;
+    padding-bottom: 0px;
+}	
+.contact h2{
+    text-emphasis: 20px;
+    font-size: 40px;
     padding-left: 20px;
 }

@@ -108,8 +108,9 @@ body {
 .navbar .textaline{
     font-size: 250%;
     margin-top: 150px;
-    padding-left: 300px;
+    padding-left: 30%;
     display: inline-block;
+    
 }
 .navbar h2{
     font-size: 120%;

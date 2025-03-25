@@ -25,7 +25,7 @@ body {
 
 }
 .header {
-    background-color: 	#f18f8f;
+    background-color: 	#fabdbd;
     color: #FFF;
     text-align: left;
     padding-left: 10px;
@@ -35,21 +35,42 @@ body {
     position: fixed;
     z-index: 1000;
     width: 100%;
-    height: 50px;
+    height: 70px;
     top:0;
     left:0;
+    display: flex;
  
 }
 .header li a{
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding: auto;
     color: black;
+    align-items: center;
+    margin-top: 50px;
+    line-height: 0px;
+    padding-top: 10px;
 }
-header li{
-    
+.header li{
+    padding: auto;
     display: inline-block;
     text-decoration: none;
     color: black;
+    align-items: center;
+    align-content: center;
+    height: 0px;
+    line-height: 0px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.header .logo{
+    display: inline-block;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    padding: auto;
 }
 
 .imagealine{
@@ -64,22 +85,24 @@ header li{
     background-color: #ee9e9e;
     text-align: left;
     color: rgb(0, 0, 0);
-    font-family: "Cookie", cursive;
-    font-weight: bold;
+    font-family: "Rouge Script", cursive;
+    font-style: normal;
     position: inherit;
     margin-top: 50px;
-    height: 473px;
+    height: 420.5px;
     width: 100%;
     padding: 0px;
     display: flex;
     z-index: inherit;
 }
+
 .navbar .textaline{
     font-size: 250%;
     margin-top: 30px;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-top: 10px;
+    display: inline-block;
 }
 .navbar h2{
     font-size: 120%;
@@ -87,18 +110,31 @@ header li{
     padding-top: 10px;
     width: 100%;
 }
-li .whatsappp{
+.navbar .logo{
     display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+li .whatsappp{
+    display: inline-block;
     align-items: right;
     padding-left: 100px;
+    margin-top: 30px;
 }
 .whatsappp {
 
-    display: flex;
+    display: inline-block;
     align-items: right;
-    position: right;
-    width: 100%;
-    height: 20px;
+    padding-left: 120px;
+    margin-top: 25px;
+}
+.instagram {
+
+    display: inline-block;
+    align-items: right;
+    padding-left: 20px;
+    margin-top: 25px;
 }
 .whatsapp {
 
@@ -110,17 +146,32 @@ li .whatsappp{
     text-decoration: none;
     color: rgb(101, 161, 10)
 }
+.sobre .imagealinee{
+    right: 0;
+    top: 40px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
 .sobre {
     background-color: #f3a7a7;
-    margin-top: -40px;
-    height: 300px;
+    height: 320px;
     padding-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    display: flex;
 }
-.sobre h2, .servicos h2, .sobre p{
-    padding-top: 40px;
-    text-height: 20px; 
-    font-size: large;
+.sobre h2{
+    display: inline-block;
+    position: absolute;
+    margin-left: -20px;
+    align-items: center;
+}
+.sobre p{
+    display: inline-block;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -20px;
+    align-items: center;
 }
 .sobre h2, .servicos h2 {
     font-size: 40px;
@@ -128,9 +179,17 @@ li .whatsappp{
 .servicos {
     background-color: #f9b1b1;
     margin-top: -40px;
-    height: 200px;
+    height: 250px;
     padding-left: 20px;
     padding-bottom: 20px;
+}
+.servicos h2{
+    margin-top: 60px;
+    position: absolute;
+}
+.servicos ul{
+    margin-top: 120px;
+    position: absolute;
 }
 .contact {
     background-color: #fabdbd;

@@ -19,6 +19,11 @@ body {
       padding: 0 15px;
     }
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   
 
 .contact {
@@ -43,8 +48,8 @@ body {
     width: 100%;
     height: 70px;
     top:0;
-    left:0;
     display: flex;
+    overflow: hidden;
  
 }
 .header li a{
@@ -52,9 +57,7 @@ body {
     padding-left: 20px;
     padding: auto;
     color: black;
-    align-items: center;
     margin-top: 50px;
-    line-height: 0px;
     padding-top: 10px;
 }
 .header li{
@@ -66,7 +69,7 @@ body {
     align-content: center;
     height: 0px;
     line-height: 0px;
-    margin-top: 10px;
+    margin-top: 25px;
     padding-top: 10px;
 }
 
@@ -79,42 +82,40 @@ body {
     padding: auto;
 }
 
-.imagealine{
-    position: absolute;
-    right: 0;
-    top: 40px;
-    max-width: 100%;
-    height: auto;
-    display: block
-}
+
 .navbar{
-    background-color: #ee9e9e;
+    background-color: #fabdbd;
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: "Aline", sans-serif;
     font-style: normal;
-    position: inherit;
+    position: relative;
     margin-top: 50px;
-    height: 420.5px;
+    height: 770px;
     width: 100%;
     padding: 0px;
     display: flex;
     z-index: inherit;
+    background: url(../images/freepik__adjust__36048.png)center center no-repeat;
+    background-size: cover;
 }
-
+.imagealine{
+    position: absolute;
+    right: 0;
+    top: 30px;;
+    max-width: 100%;
+}
 .navbar .textaline{
     font-size: 250%;
-    margin-top: 30px;
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-top: 10px;
+    margin-top: 150px;
+    padding-left: 300px;
     display: inline-block;
 }
 .navbar h2{
     font-size: 120%;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 10px;
-    width: 100%;
+    width: 70%;
 }
 .navbar .logo{
     display: flex;

@@ -104,7 +104,7 @@ body, html {
 .conteimg img{
     position: absolute;
     right: 0;
-    width: 25rem;
+    width: 30rem;
     height: auto;
     max-width: 100%;
 }
@@ -297,14 +297,11 @@ li .whatsappp{
     .conteimg img{
         position: absolute;
         right: 0;
-        bottom: 50px;
+        bottom: 100px;
+        width: 25rem;
   }
 
 }
-
-
-
-
 
   @media (max-width: 900px) {
     html {
@@ -314,7 +311,8 @@ li .whatsappp{
         position: absolute;
         left: 50%;
         bottom: 0;
-        transform: translateX(-50%)
+        transform: translateX(-50%);
+        width: 35rem;
         
   }
 
@@ -373,7 +371,7 @@ li .whatsappp{
 }
 }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     html {
       font-size: 10px;
     }
@@ -397,7 +395,7 @@ li .whatsappp{
       }
 
     .navbar .textaline{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         margin-top: 150px;
         margin-left: -60px;
     }
@@ -405,7 +403,8 @@ li .whatsappp{
         position: absolute;
         left: 50%;
         bottom: 0;
-        transform: translateX(-50%)
+        transform: translateX(-50%);
+        width: 35rem;
     
   }
   .instagram {
